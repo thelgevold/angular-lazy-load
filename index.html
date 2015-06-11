@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/ocLazyLoad/dist/ocLazyLoad.js"></script>
+    <script data-main="main" src="bower_components/requirejs/require.js"></script>
+
+</head>
+<body>
+<div>
+    <a ui-sref="module1">Lazy Module1</a>
+</div>
+
+<div>
+    <a ui-sref="module2">Lazy Module2</a>
+</div>
+
+
+<div ui-view></div>
+
+</body>
+</html>
